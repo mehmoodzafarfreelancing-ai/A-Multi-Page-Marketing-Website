@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+
+/* 'header' selector styles the <header> element */
+.header-container {
+  display: flex; /* Arranges children (h1 and nav) in a row */
+  justify-content: space-between; /* Puts space between them */
+  align-items: center; /* Vertically centers them */
+  padding: 16px 32px; /* Adds spacing inside the header */
+  background-color: #f8f8f8; /* A light grey background */
+  border-bottom: 1px solid #ddd; /* A subtle line at the bottom */
+}
+
+/* Styles the <h1> tag *inside* our header */
+.header-container h1 {
+  font-size: 1.5rem; /* Makes font a bit bigger */
+  margin: 0; /* Removes default margin */
+}
+
+/* Styles all <button> tags *inside* the <nav> */
+.header-container nav button {
+  margin-left: 12px; /* Adds space between buttons */
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff; /* A blue background */
+  color: white; /* White text */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Shows a hand icon on hover */
+}
+
+/* Styles the button hover state */
+.header-container nav button:hover {
+  background-color: #0056b3; /* A darker blue on hover */
+}

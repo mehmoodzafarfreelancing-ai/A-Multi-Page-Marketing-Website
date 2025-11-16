@@ -1,0 +1,33 @@
+/* src/components/Main.css */
+.main-container {
+  padding: 48px 32px; /* Lots of vertical padding */
+  text-align: center; /* Center all the text */
+  /* This makes sure the footer is pushed to the bottom */
+  flex-grow: 1; 
+}
+
+.main-container h2 {
+  font-size: 2.5rem; /* A big, bold headline */
+  margin-bottom: 16px;
+}
+
+.main-container p {
+  font-size: 1.25rem;
+  color: #555; /* A softer grey color */
+  margin-bottom: 32px;
+}
+
+.main-container button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745; /* A green "call to action" color */
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.main-container button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
