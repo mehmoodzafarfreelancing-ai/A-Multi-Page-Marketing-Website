@@ -1,5 +1,4 @@
-// src/pages/Services.jsx
-import '../components/Main.css'; // Reuse the CSS for consistent padding
+import './PageLayout.css';
 
 function Services() {
   return (

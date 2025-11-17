@@ -1,5 +1,5 @@
 // src/pages/Contact.jsx
-import '../components/Main.css';
+import './PageLayout.css';
 
 function Contact() {
   return (
